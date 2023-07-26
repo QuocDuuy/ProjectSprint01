@@ -11,7 +11,7 @@ using WebBanHangOnline.Models;
 
 namespace WebBanHangOnline.Areas.Admin.Controllers
 {
-    [Authorize(Roles = "Admin")] //Hoàn thành Account Management
+    //[Authorize(Roles = "Admin")] //Hoàn thành Account Management
     public class AccountController : Controller
     {
         private ApplicationSignInManager _signInManager;
