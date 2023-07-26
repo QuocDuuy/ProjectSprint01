@@ -134,13 +134,15 @@
                             <nav class="navbar">
                                 @Html.Action("MenuTop", "Menu")
                                 <ul class="navbar_user">
+                                    @*Chức năng tìm kiếm sản phẩm*@
                                     <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                                    @*<div class="form-group form-inline">
+                                    @*<div class="form-group form-inline"> 
                                         Tim san pham: @Html.TextBox("SearchString", "", new { @class="form-control"})
                                         <input type="submit" class="btn btn-default" value="Search" />
                                     </div>*@
                                     <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
                                     <li class="checkout">
+                                        @*chức năng giỏ hàng*@
                                         <a href="/gio-hang">
                                             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                                             <span id="checkout_items" class="checkout_items">0</span>
