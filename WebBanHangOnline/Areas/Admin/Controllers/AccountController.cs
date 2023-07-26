@@ -119,7 +119,7 @@ namespace WebBanHangOnline.Areas.Admin.Controllers
         [HttpPost]
         [AllowAnonymous]
         [ValidateAntiForgeryToken]
-        public async Task<ActionResult> Create(CreateAccountViewModel model)
+        public async Task<ActionResult> Create(CreateAccountViewModel model) //Hoàn thành thông tin cá nhân
         {
             if (ModelState.IsValid)
             {
