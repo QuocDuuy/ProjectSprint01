@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace WebBanHangOnline.Models
 {
+    // Code model view account.
     public class ExternalLoginConfirmationViewModel
     {
         [Required]
