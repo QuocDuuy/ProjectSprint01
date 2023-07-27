@@ -9,7 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using WebBanHangOnline.Models;
-
+// Code chức năng đăng nhập
 namespace WebBanHangOnline.Controllers
 {
     [Authorize]
